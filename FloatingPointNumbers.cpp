@@ -48,6 +48,15 @@ int main(void){
     cout<<"\tCeil fx = "<<ceil(fx)<<endl;
     cout<<"\tRound fx = "<<round(fx)<<endl;
 
+    //Typecasting
+    int balls = 18, runs = 19;
+    float strikeRate;
+    strikeRate = (float)runs / balls * 100;
+    cout<<"\n\t Typecasting ...."<<endl;
+    cout<<"\t----------------------------------------"<<endl;
+    cout<<"\tBalls Faced: "<<balls<<" | Runs Scored: "<<runs<<endl;
+    cout<<"\tStrike Rate: "<<strikeRate<<endl;
+
     cout<<endl;
     return 0;
 }
