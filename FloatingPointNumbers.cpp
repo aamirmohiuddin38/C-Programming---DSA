@@ -47,6 +47,9 @@ int main(void){
     cout<<"\tFloor fx = "<<floor(fx)<<endl;
     cout<<"\tCeil fx = "<<ceil(fx)<<endl;
     cout<<"\tRound fx = "<<round(fx)<<endl;
+    cout<<"\tTruncated fx = "<<trunc(fx)<<endl;
+    /*notice in above operation, every result has 2 decimal points, this is because
+    setprecision is set to 2 in previous operations */
 
     //Typecasting
     int balls = 18, runs = 19;
