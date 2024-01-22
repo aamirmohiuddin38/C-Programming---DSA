@@ -29,21 +29,22 @@ int main(void){
     finalSalary = netPreTax - tds;
 
     //display results
+    cout<<fixed<<setprecision(0);
     cout<<"\t ----------------------------------"<<endl;
     cout<<"\t Basic Salary : \t "<<basic<<endl;
     cout<<"\t ----------------------------------"<<endl;
-    cout<<"\t Basic: \t\t| "<<basic<<endl;
-    cout<<"\t DA: \t\t\t| "<<da<<endl;
-    cout<<"\t HRA: \t\t\t| "<<hra<<endl;
-    cout<<"\t Conveyance: \t\t| "<<conveyance<<endl;
-    cout<<"\t Medical: \t\t| "<< medical<<endl;
-    cout<<"\t Gross Salary: \t\t| "<<gross<<endl;
-    cout<<"\t ESIC: \t\t\t| "<<esic<<endl;
-    cout<<"\t Provident Fund: \t| "<<pf<<endl;
-    cout<<"\t Net Before Tax: \t| "<<netPreTax<<endl;
-    cout<<"\t TDS: \t\t\t| "<<tds<<endl;
+    cout<<"\t Basic: \t\t| "<<setw(8)<<right<<basic<<endl;
+    cout<<"\t DA: \t\t\t| "<<setw(8)<<right<<da<<endl;
+    cout<<"\t HRA: \t\t\t| "<<setw(8)<<right<<hra<<endl;
+    cout<<"\t Conveyance: \t\t| "<<setw(8)<<right<<conveyance<<endl;
+    cout<<"\t Medical: \t\t| "<<setw(8)<<right<< medical<<endl;
+    cout<<"\t Gross Salary: \t\t| "<<setw(8)<<right<<gross<<endl;
+    cout<<"\t ESIC: \t\t\t| "<<setw(8)<<right<<esic<<endl;
+    cout<<"\t Provident Fund: \t| "<<setw(8)<<right<<pf<<endl;
+    cout<<"\t Net Before Tax: \t| "<<setw(8)<<right<<netPreTax<<endl;
+    cout<<"\t TDS: \t\t\t| "<<setw(8)<<right<<tds<<endl;
     cout<<"\t ----------------------------------"<<endl;
-    cout<<"\t Salary in Hand: \t| "<<finalSalary<<endl;
+    cout<<"\t Salary in Hand: \t| "<<setw(8)<<right<<finalSalary<<endl;
     cout<<"\t ----------------------------------"<<endl;
 
     cout<<"\n";
