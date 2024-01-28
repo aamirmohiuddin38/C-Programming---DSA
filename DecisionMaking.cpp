@@ -8,9 +8,11 @@ int main(void){
     cout<<"DECISION MAKING ...\n"<<endl;
 
     //declaring variable
-    int a;
+    int a, b;
     cout<<"Enter a: | ";
     cin>>a;
+    cout<<"Enter b: | ";
+    cin>>b;
 
     //?IF STATEMENT - checking whether 'a' is even, if even, print 'a' and if not then do nothing
     cout<<"\n\t ------------------------------"<<endl;
@@ -31,6 +33,21 @@ int main(void){
     }
     else{
         cout<<"\t 'a' is ODD"<<endl;
+    }
+
+    //?IF - ELSE IF-ELSE STATEMENT - comparing two numbers whether they are less, greater or equal
+    cout<<"\n\t ------------------------------"<<endl;
+    cout<<"\t IF-ELSE IF- ELSE Statement..."<<endl;
+    cout<<"\t ------------------------------"<<endl;
+    if (a < b)
+    {
+        cout<<"\t 'b' is GREATER"<<endl;
+    }
+    else if(a > b){
+        cout<<"\t 'a' is GREATER"<<endl;
+    }
+    else{
+        cout<<"\t 'a' and 'b' are equal | a = b |"<<endl;
     }
 
     cout<<endl;
