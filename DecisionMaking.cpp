@@ -69,6 +69,19 @@ int main(void){
     // cout<<"\t max = "<<(a>b)?a:b;
     (a>b) ? cout<<"\t max is "<< a : cout<<"\t max is "<< b;
 
+    //?IF - ELSE IF-ELSE STATEMENT - comparing two numbers whether they are less, greater or equal
+    cout<<"\n\t ------------------------------"<<endl;
+    cout<<"\t IF-ELSE | Comparison Operators..."<<endl;
+    cout<<"\t ------------------------------"<<endl;
+    if(a<b) cout<<"\t a<b is true"<<endl;
+    if(a<=b) cout<<"\t a<=b is true"<<endl;
+    if(a==b) cout<<"\t a==b is true"<<endl;
+    if(a>b) cout<<"\t a>b is true"<<endl;
+    if(a>=b) cout<<"\t a>=b is true"<<endl;
+    if(a!=b) cout<<"\t a!=b is true"<<endl;
+    /* When C++ DOES ANY OF THE ABOVE COMPARISONS, IT RETURNS A "1", if the condition is true and "0" if the condition
+    is false */
+
     cout<<endl;
     return 0;
 }
