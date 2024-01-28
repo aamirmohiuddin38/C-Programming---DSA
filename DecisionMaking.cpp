@@ -21,6 +21,18 @@ int main(void){
         cout<<"\t 'a' is EVEN"<<endl;
     }
 
+    //?IF - ELSE STATEMENT - checking whether 'a' is even or odd
+    cout<<"\n\t ------------------------------"<<endl;
+    cout<<"\t IF-ELSE Statement..."<<endl;
+    cout<<"\t ------------------------------"<<endl;
+    if (a % 2 == 0)
+    {
+        cout<<"\t 'a' is EVEN"<<endl;
+    }
+    else{
+        cout<<"\t 'a' is ODD"<<endl;
+    }
+
     cout<<endl;
     return 0;
 }
