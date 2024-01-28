@@ -82,6 +82,14 @@ int main(void){
     /* When C++ DOES ANY OF THE ABOVE COMPARISONS, IT RETURNS A "1", if the condition is true and "0" if the condition
     is false */
 
+    //?IF - ELSE Combining Multiple Conditions
+    cout<<"\n\t ---------------------------------------------"<<endl;
+    cout<<"\t IF-ELSE: Combining Multiple Conditions (&& ||)..."<<endl;
+    cout<<"\t ---------------------------------------------"<<endl;
+
+    if(a<100 && a%2==0) cout<<"\t a < 100 and even"<<endl; //both conditions must be true - AND
+    if(a<100 || a%2==0) cout<<"\t a is either less than 100 or even"<<endl; //either of the condition must be true - OR
+
     cout<<endl;
     return 0;
 }
