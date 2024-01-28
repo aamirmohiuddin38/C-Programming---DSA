@@ -50,6 +50,15 @@ int main(void){
         cout<<"\t 'a' and 'b' are equal | a = b |"<<endl;
     }
 
+    //?IF - ELSE STATEMENT - ONE LINER
+     //!if-else can be written in only one line and without braces if the code block contain only one line as:
+    cout<<"\n\t ------------------------------"<<endl;
+    cout<<"\t IF-ELSE Statement... OneLine/Without braces"<<endl;
+    cout<<"\t ------------------------------"<<endl;
+
+    if (a % 2 == 0) cout<<"\t 'a' is EVEN"<<endl;
+    else cout<<"\t 'a' is ODD"<<endl;
+
     cout<<endl;
     return 0;
 }
