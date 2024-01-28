@@ -8,7 +8,7 @@ int main(void){
     cout<<"DECISION MAKING ...\n"<<endl;
 
     //declaring variable
-    int a, b;
+    int a, b, max;
     cout<<"Enter a: | ";
     cin>>a;
     cout<<"Enter b: | ";
@@ -58,6 +58,16 @@ int main(void){
 
     if (a % 2 == 0) cout<<"\t 'a' is EVEN"<<endl;
     else cout<<"\t 'a' is ODD"<<endl;
+
+        //? TERNARY IF ELSE Statement....
+    cout<<"\n\t ------------------------------"<<endl;
+    cout<<"\t TERNARY IF- ELSE Statement"<<endl;
+    cout<<"\t ------------------------------"<<endl;
+
+    max = (a>b) ? a : b;
+    cout<<"\t max = "<<max<<endl;
+    // cout<<"\t max = "<<(a>b)?a:b;
+    (a>b) ? cout<<"\t max is "<< a : cout<<"\t max is "<< b;
 
     cout<<endl;
     return 0;
