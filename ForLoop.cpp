@@ -1,5 +1,6 @@
 // For Loop - syntax and examples
 #include <iostream>
+#include <iomanip>
 using namespace std;
 int main(void){
 	system("cls");
@@ -34,6 +35,22 @@ int main(void){
     cout<<"\t--------------------------------------"<<endl;
     for(i=10; i>0; i=i-2){
         cout<<"\t "<<i<<endl;
+    }
+
+    // Examples of type float
+    float j;
+    cout<<"\n\t--------------------------------------"<<endl;
+    cout<<"\t Incrementing by 0.1 | Ascending Order"<<endl;
+    cout<<"\t--------------------------------------"<<endl;
+    for(j=0; j<=1; j = j + 0.1){
+        cout<<"\t "<<j<<endl;
+    }
+
+    cout<<"\n\t--------------------------------------"<<endl;
+    cout<<"\t Incrementing by 0.05 | Ascending Order"<<endl;
+    cout<<"\t--------------------------------------"<<endl;
+    for(j=0; j<=1; j = j + 0.05){
+        cout<<"\t "<<fixed<<setprecision(2)<<j<<endl;
     }
 
 
