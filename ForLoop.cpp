@@ -53,6 +53,22 @@ int main(void){
         cout<<"\t "<<fixed<<setprecision(2)<<j<<endl;
     }
 
+    // Examples of type char
+    char c;
+    cout<<"\n\t--------------------------------------"<<endl;
+    cout<<"\t Capital Letter Alphabets.."<<endl;
+    cout<<"\t--------------------------------------"<<endl;
+    for(c='A'; c<='Z'; c++){
+        cout<<"\t "<<c<<endl;
+    }
+
+    cout<<"\n\t--------------------------------------"<<endl;
+    cout<<"\t Small Letter Alphabets.."<<endl;
+    cout<<"\t--------------------------------------"<<endl;
+    for(c='a'; c<='z'; c++){
+        cout<<"\t "<<c<<endl;
+    }
+
 
 	cout<<endl;
 	return 0;
